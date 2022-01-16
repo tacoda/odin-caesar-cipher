@@ -20,23 +20,13 @@ docker run caesar bin/caesar "my message" 5
 docker run caesar rspec
 ```
 
-## Use the library
+## Install the gem
 
-```ruby
-Caesar.cipher("my message", 5)
+```sh
+gem install tog_caesar
 ```
 
 ## Use the gem
-
-**Gemfile**
-
-```ruby
-source 'https://rubygems.org'
-
-gem 'tog_caesar'
-```
-
-**Usage**
 
 ```ruby
 require 'tog_caesar'
