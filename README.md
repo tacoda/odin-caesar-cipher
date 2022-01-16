@@ -14,7 +14,7 @@ require 'tog_caesar'
 Caesar.cipher("my message", 5)
 ```
 
-This repository is a solution to the [Odin Ceasar Cipher](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-programming/lessons/caesar-cipher) problem.
+This repository is a solution to the [Odin Caesar Cipher](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-programming/lessons/caesar-cipher) problem.
 
 ---
 
