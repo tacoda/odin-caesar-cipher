@@ -1,6 +1,6 @@
 Gem::Specification.new do |s| 
     s.name         = "tog_caesar"
-    s.version      = "0.1.0"
+    s.version      = "0.1.1"
     s.author       = "Ian Johnson"
     s.email        = "tacoda@hey.com"
     s.summary      = "Ceasar Cipher"
@@ -12,6 +12,6 @@ Gem::Specification.new do |s|
     s.test_files    = Dir["spec/**/*"]
     s.executables   = [ 'caesar' ]
     
-    s.required_ruby_version = '>=1.9'
+    s.required_ruby_version = '>=2.6'
     s.add_development_dependency 'rspec'
   end
