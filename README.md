@@ -1,6 +1,6 @@
 # Odin Caesar Cipher
 
-## Install
+## Installation
 
 ```sh
 gem install tog_caesar
@@ -13,7 +13,7 @@ caesar "my message" 5
 # rd rjxxflj
 ```
 
-## Ruby Usage
+## Ruby API Usage
 
 ```ruby
 require 'tog_caesar'
@@ -27,6 +27,8 @@ This repository is a solution to the [Odin Caesar Cipher](https://www.theodinpro
 ---
 
 ## Contributing
+
+**Requirements:** Docker, Make
 
 ```sh
 # Build the container
