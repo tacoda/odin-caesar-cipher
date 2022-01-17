@@ -1,4 +1,4 @@
-name: Docker
+name: CI
 
 on:
   push:
@@ -15,7 +15,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag tog-caesar:$(date +%s)
+      run: make build
 
   test:
 
@@ -23,8 +23,5 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag tog-caesar
-    - uses: actions/checkout@v2
     - name: Run the tests
-      run: docker run tog-caesar rspec
+      run: make test
