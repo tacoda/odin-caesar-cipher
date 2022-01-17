@@ -26,16 +26,19 @@ This repository is a solution to the [Odin Caesar Cipher](https://www.theodinpro
 
 ---
 
-## Contributing
+## Working Locally
 
-**Requirements:** Docker
+**Requirements:** Git, Docker
 
 ```sh
-# Clean the build and remove the image
-script/clean
+# Clone the repository and open the directory
+git clone git@github.com:tacoda/odin-caesar-cipher.git && cd odin-caesar-cipher/
 
 # Build the image
 script/build
+
+# Clean the build and remove the image
+script/clean
 
 # Run all rspec tests in the container
 script/test
