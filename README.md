@@ -31,7 +31,10 @@ This repository is a solution to the [Odin Caesar Cipher](https://www.theodinpro
 **Requirements:** Docker, Make
 
 ```sh
-# Build the container
+# Clean the build and remove the image
+make clean
+
+# Build the image
 make build
 
 # Run all rspec tests in the container
