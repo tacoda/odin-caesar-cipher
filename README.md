@@ -6,12 +6,20 @@
 gem install tog_caesar
 ```
 
-## Usage
+## Command Line Usage
+
+```sh
+caesar "my message" 5
+# rd rjxxflj
+```
+
+## Ruby Usage
 
 ```ruby
 require 'tog_caesar'
 
 Caesar.cipher("my message", 5)
+# => rd rjxxflj
 ```
 
 This repository is a solution to the [Odin Caesar Cipher](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-programming/lessons/caesar-cipher) problem.
