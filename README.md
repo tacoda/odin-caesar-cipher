@@ -28,20 +28,13 @@ This repository is a solution to the [Odin Caesar Cipher](https://www.theodinpro
 
 ## Contributing
 
-### Build the container
-
 ```sh
-docker build . -t caesar
-```
+# Build the container
+make build
 
-### Run the binary
+# Run all rspec tests in the container
+make test
 
-```sh
-docker run caesar bin/caesar "my message" 5
-```
-
-### Run the tests
-
-```sh
-docker run caesar rspec
+# Run the program with arguments in the container
+make run message="my message" shift=5
 ```
