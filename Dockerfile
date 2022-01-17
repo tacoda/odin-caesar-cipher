@@ -5,9 +5,10 @@ RUN bundle config --global frozen 1
 
 WORKDIR /usr/src/app
 
-COPY Gemfile Gemfile.lock ./
+COPY Gemfile ./ Gemfile.lock ./
+RUN gem install bundler:2.2
 RUN bundle install
 
 COPY . .
 
-CMD ["./caesar"]
+CMD ["bin/caesar"]
