@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+BASE_DIR=$(dirname $(dirname $(realpath $0)))
+docker rmi caesar:latest --force
+rm $BASE_DIR/.build
