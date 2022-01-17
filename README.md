@@ -51,15 +51,18 @@ script/run "my message" 5
 
 ## Notes
 
-I realize that this is overkill for such a simple project. The point of this project is to get practice with:
+This is overkill for such a simple project.
 
-- Structuring a ruby project
-- Building the project into a gem
-- Creating an executable as part of the gem
-- Building tests with RSpec
-- Dockerizing the gem
-- Scripting different aspects of the build
-- Using GitHub Actions to create a CI pipeline
-- Documenting with a README and a LICENSE
-- Pushing the gem to RubyGems
-- Explore releases and publishing to RubyGems in a CI pipeline via git tag
+The point of this project is to practice the skills required to turn an idea into a deployment:
+
+- [x] Structuring a ruby project
+- [x] Building the project into a gem
+- [x] Creating an executable as part of the gem
+- [x] Building tests with RSpec
+- [x] Dockerizing the gem
+- [x] Scripting different aspects of the build using Bash
+- [x] Using GitHub Actions to create a CI pipeline
+- [x] Documenting with a README and a LICENSE
+- [x] Pushing the gem to RubyGems
+- [ ] GitHub Releases in a CI pipeline via git tag
+- [ ] Publish to RubyGems in a CI pipeline via git tag
