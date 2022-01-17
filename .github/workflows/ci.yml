@@ -1,14 +1,6 @@
 name: CI
 
-on:
-  push:
-    branches:
-      - main
-      - 'releases/**'
-  pull_request:
-    branches:
-      - main
-      - 'releases/**'
+on: push
 
 jobs:
 
@@ -17,15 +9,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Build the Docker image
-      run: script/build
+      - uses: actions/checkout@v2
+      - name: Build the Docker image
+        run: script/build
 
   test:
 
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Run the tests
-      run: script/test
+      - uses: actions/checkout@v2
+      - name: Run the tests
+        run: script/test
