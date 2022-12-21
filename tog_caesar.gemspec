@@ -1,6 +1,6 @@
 Gem::Specification.new do |s| 
     s.name         = "tog_caesar"
-    s.version      = "0.1.1"
+    s.version      = "0.1.2"
     s.author       = "Ian Johnson"
     s.email        = "tacoda@hey.com"
     s.summary      = "Ceasar Cipher"
