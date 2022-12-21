@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/caesar.rb'
+
+args = ARGV
+
+unless args.length < 2
+  puts Caesar.cipher(args[0].to_s, args[1].to_i)
+end

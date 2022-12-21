@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+BASE_DIR=$(dirname $(dirname $(realpath $0)))
+docker build $BASE_DIR --tag caesar:latest
+touch $BASE_DIR/.build

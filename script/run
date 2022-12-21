@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+BASE_DIR=$(dirname $(dirname $(realpath $0)))
+if [[ -e "$BASE_DIR/.build" ]]; then
+  docker run caesar:latest bin/caesar "$@"
+else
+  . $BASE_DIR/script/build
+  docker run caesar:latest bin/caesar "$@"
+fi
